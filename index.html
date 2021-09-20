@@ -8,49 +8,35 @@
     <title>Calculadora</title>
   </head>
   <body>
-    <div class="interface">
-      <div class="calculadora">
-        <div class="visor">0</div>
-        <br />
-        <div class="teclado">
-          <div class="funcoes">
-            <button>Clear</button>
-            <button id="save">Save</button>
-            <button>Backspace</button>
-          </div>
-          <br />
-          <div class="operacoes">
-            <button>+</button>
-            <button>-</button>
-            <button>*</button>
-            <button>/</button>
-          </div>
-          <br />
-          <div class="numeros">
-            <div>
-              <button>1</button>
-              <button>2</button>
-              <button>3</button>
-            </div>
-            <div>
-              <button>4</button>
-              <button>5</button>
-              <button>6</button>
-            </div>
-            <div>
-              <button>7</button>
-              <button>8</button>
-              <button>9</button>
-            </div>
-            <div>
-              <button>0</button>
-              <button>.</button>
-              <button>=</button>
-            </div>
-          </div>
-        </div>
+    <div class="calculadora">
+      <div id="drag"></div>
+      <div class="visor" id="superior"></div>
+      <div class="visor" id="inferior">0</div>
+      <div id="teclado">
+        <button class="functions" id="clear">Clear</button>
+        <button class="functions" id="save">Save</button>
+        <button class="functions" id="paste">Paste</button>
+        <button class="functions" id="backspace">Delete</button>
+        <button class="operations" id="sum">+</button>
+        <button class="operations" id="sub">-</button>
+        <button class="operations" id="mul">x</button>
+        <button class="operations" id="div">/</button>
+        <button class="operations" id="sqr">√</button>
+        <button class="operations" id="exp">^</button>
+        <button id="_1" class="numbers">1</button>
+        <button id="_2" class="numbers">2</button>
+        <button id="_3" class="numbers">3</button>
+        <button id="_4" class="numbers">4</button>
+        <button id="_5" class="numbers">5</button>
+        <button id="_6" class="numbers">6</button>
+        <button id="_7" class="numbers">7</button>
+        <button id="_8" class="numbers">8</button>
+        <button id="_9" class="numbers">9</button>
+        <button id="zero" class="numbers">0</button>
+        <button id="dot" class="numbers">.</button>
+        <button id="equal" class="operations">=</button>
       </div>
     </div>
-    <script src="scripts.js"></script>
+    <script src="newScript.js"></script>
   </body>
 </html>
